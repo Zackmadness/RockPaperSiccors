@@ -35,7 +35,7 @@ function playGame(){
     let computerScore = 0;
 
     for (let round = 1; round <= 5; round++) {
-        const humanSelection = getComputerChoice();
+        const humanSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
         const winner = playRound(humanSelection, computerSelection);
 
