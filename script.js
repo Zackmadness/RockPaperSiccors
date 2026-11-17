@@ -53,3 +53,5 @@ function playGame(){
             console.log("The 5-round game ended in a tie!")
         }
 }
+
+playGame()
