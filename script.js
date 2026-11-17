@@ -21,14 +21,35 @@ const humanWins =
 (HumanChoice === "paper" && ComputerChoice === "rock") ||
 (HumanChoice === "scissors" && ComputerChoice === "paper");
 
-if (humanwins) {
+if (humanWins) {
     console.log(`You win! ${HumanChoice} beats ${ComputerChoice}.`);
     return "human"
 } else {
     console.log(`You lose! ${ComputerChoice} beats ${HumanChoice}.`)
     return "computer"
 }
-
-if
 }
 
+function playGame(){
+    let humanScore = 0;
+    let computerScore = 0;
+
+    for (let round = 1; round <= 5; round++) {
+        const humanSelection = getComputerChoice();
+        const computerSelection = getComputerChoice();
+        const winner = playRound(humanSelection, computerSelection);
+
+        if (winner === "human") humanScore++;
+        if (winner === "computer") computerScore++;
+        
+        console.log(`score -- You: ${humanScore} |  Computer: ${computerScore}`);
+        }
+
+        if (humanScore > computerScore) {
+            console.log("Congratulation! You won the game!")
+        } else if (computerScore > humanScore) {
+            console.log("Game over! The Computer won.")
+        } else {
+            console.log("The 5-round game ended in a tie!")
+        }
+}
