@@ -1,11 +1,11 @@
 let humanScore = 0;
-let computerScore = 0
+let computerScore = 0;
 
 const roundResultEl = document.querySelector("#round-result");
-const scoreEl = document.querySelector("#score")
-const finalWinnerEl = document.querySelector("#final-winner")
-const choiceButtons = document.querySelectorAll("#choices button")
-const resetButton = document.querySelector("#reset")
+const scoreEl = document.querySelector("#score");
+const finalWinnerEl = document.querySelector("#final-winner");
+const choiceButtons = document.querySelectorAll("#choices button");
+const resetButton = document.querySelector("#reset");
 
 function getComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3);
