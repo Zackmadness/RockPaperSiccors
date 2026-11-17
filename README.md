@@ -1,25 +1,51 @@
 # 🎮 Rock Paper Scissors
 
-A browser-based implementation of the classic Rock Paper Scissors game built with vanilla JavaScript, HTML, and CSS as part of [The Odin Project](https://www.theodinproject.com/) Foundations curriculum.
+A modern browser-based implementation of the classic Rock Paper Scissors game built with vanilla JavaScript, HTML, and CSS as part of [The Odin Project](https://www.theodinproject.com/) Foundations curriculum.
 
-🔗 **[Live Demo]([https://github.io](https://zackmadness.github.io/RockPaperSiccors/))**
+🔗 **[Live Demo](https://zackmadness.github.io/RockPaperSiccors/)**
+
+---
 
 ## 📖 Overview
 
-This project is an interactive Rock Paper Scissors game where players compete against a computer opponent that makes randomized choices. Originally built as a console application, it was refactored into a browser-based UI to practice DOM manipulation and event-driven JavaScript.
+This project is an interactive Rock Paper Scissors game where players compete against a computer opponent that makes randomized choices. Originally built as a console application, it was later refactored into a fully interactive browser experience focused on DOM manipulation, event-driven programming, responsive design, and persistent game data.
+
+The game features a polished user interface, animated interactions, score tracking, and lifetime statistics that persist between browser sessions using Local Storage.
+
+---
 
 ## ✨ Features
 
-- 🖱️ **Interactive UI Controls** – Play using dedicated buttons for Rock, Paper, and Scissors.
-- 🎲 **Randomized Computer Opponent** – The computer generates a random move each round.
-- 🏆 **First-to-5 Match System** – Tracks player and computer scores in real time, locks inputs, and declares a winner at 5 points.
-- 🔄 **Game Reset** – Includes a "Play Again" button to clear scores and start a fresh match.
+### 🎮 Gameplay
+- 🪨 Rock, 📄 Paper, ✂️ Scissors selection buttons
+- 🎲 Randomized computer opponent
+- 🏆 First-to-5 match system
+- 🚫 Automatically disables inputs when a match ends
+- 🔄 "Play Again" functionality for instant rematches
+
+### 🎨 User Interface
+- Modern responsive design
+- Interactive button hover and click animations
+- Real-time scoreboards
+- Match result notifications
+- Mobile-friendly layout
+
+### 💾 Persistent Statistics
+- Lifetime wins tracking
+- Lifetime losses tracking
+- Lifetime ties tracking
+- Statistics saved using Local Storage
+- Data persists across browser refreshes and sessions
+
+---
 
 ## 🛠️ Built With
 
-- **HTML5** – Semantic structure and content
-- **CSS3** – Styling and layout design
-- **JavaScript (ES6+)** – Game logic, event handling, and DOM manipulation
+- **HTML5** - Semantic page structure
+- **CSS3** - Styling, animations, and responsive layouts
+- **JavaScript (ES6+)** - Game logic, DOM manipulation, Local Storage, and event handling
+
+---
 
 ## 🚀 Getting Started
 
@@ -29,7 +55,7 @@ This project is an interactive Rock Paper Scissors game where players compete ag
 git clone https://github.com/Zackmadness/RockPaperSiccors.git
 ```
 
-### Navigate to the Project
+### Navigate to the Project Folder
 
 ```bash
 cd RockPaperSiccors
@@ -37,31 +63,64 @@ cd RockPaperSiccors
 
 ### Run Locally
 
-Open `index.html` in your preferred web browser.
+Simply open `index.html` in your preferred web browser.
+
+---
+
+## 📂 Project Structure
+
+```text
+RockPaperSiccors/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
 
 ## 🧠 What I Learned
 
 Through this project I gained experience with:
 
-- Writing modular JavaScript functions (`getComputerChoice`, `playRound`, `resetGame`).
-- Implementing game logic and conditional statements.
-- Generating random selections using `Math.random()` and `Math.floor()`.
-- Handling user input with `addEventListener` and managing disabled button states.
-- Manipulating the DOM dynamically to update round outcomes and scores.
+- Writing modular JavaScript functions
+- Implementing game logic using conditionals and objects
+- Generating randomized computer choices
+- Manipulating the DOM dynamically
+- Handling user interactions with event listeners
+- Creating responsive layouts with CSS
+- Using CSS transitions and animations
+- Persisting application data with Local Storage
+- Managing application state across game sessions
+
+---
 
 ## 🎯 Future Improvements
 
-- Add animations and sound effects.
-- Improve mobile responsiveness.
-- Track game statistics across sessions.
+- 🔊 Add sound effects for wins, losses, and button clicks
+- 🌓 Add a dark/light mode toggle
+- 📊 Match history tracking
+- 🎯 Best-of-3 and Best-of-7 game modes
+- 🎉 Confetti celebration effects for victories
+
+---
 
 ## 🙏 Acknowledgments
 
-- Project assignment provided by [The Odin Project Foundations Course](https://www.theodinproject.com/).
-- Inspired by the classic Rock Paper Scissors game.
+- Project assignment provided by [The Odin Project Foundations Course](https://www.theodinproject.com/)
+- Inspired by the classic Rock Paper Scissors game
+
+---
 
 ## 👤 Author
 
-**Zackmadness**
+**Zackery Clayton**
 
 - GitHub: https://github.com/Zackmadness
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
