@@ -39,6 +39,8 @@ Through this project I gained experience with:
 - Writing modular JavaScript functions.
 - Implementing game logic and conditional statements.
 - Generating random selections using `Math.random()`.
+- Handling user input with event listeners.
+- Manipulating the DOM dynamically to update content.
 
 - ## 🎯 Future Improvements
 
@@ -47,8 +49,7 @@ Through this project I gained experience with:
 - Add animations and sound effects.
 - Improve mobile responsiveness.
 - Track game statistics across sessions.
-- Handling user input with event listeners.
-- Manipulating the DOM dynamically to update content.
+
 
 
 ## 🙏 Acknowledgments
